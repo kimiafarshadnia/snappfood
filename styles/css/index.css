@@ -1,0 +1,196 @@
+#change {
+  background-image: url("../img/b2.jpg");
+  height: 45rem !important;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-box-shadow: inset 0 0 100px 0 rgba(0, 0, 0, 0.8);
+  box-shadow: inset 0 0 100px 0 rgba(0, 0, 0, 0.8);
+}
+.topEffectLabellabel::before {
+  background-color: #9c9c9c;
+}
+.topEffectLabellabel::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "";
+  width: 100%;
+  height: 1px;
+}
+
+.jutifyText {
+  text-align: justify;
+}
+
+.dirlogo {
+  direction: ltr;
+}
+
+.btn-outline-primary {
+  color: #c0c0c0 !important;
+  border-color: #c0c0c0 !important;
+}
+
+.btn-outline-primary:hover {
+  color: #c0c0c0 !important;
+  background-color: #fffff900 !important;
+  border-color: #c0c0c0 !important;
+}
+.btn-outline-primary:focus {
+  box-shadow: 0 0 0 0 !important;
+}
+
+.btn {
+  line-height: 1 !important;
+  border-radius: 20rem !important;
+}
+
+.bgsearch {
+  background-color: #0008;
+}
+
+.topherosearch {
+  margin-top: 10.5% !important;
+}
+
+.form-control:focus {
+  color: #000000 !important;
+  border-color: rgb(179, 179, 179) !important;
+  box-shadow: 0 0 0 0 !important;
+}
+
+.btnstyle {
+  background-color: #ec0c6d;
+}
+
+.btnstyle:hover {
+  background-color: #aa004a;
+}
+
+.colorspan {
+  font-size: 14px !important;
+  border: 1px solid;
+  color: #ec0c6d !important;
+  border-radius: 50%;
+  position: relative;
+  top: -3rem;
+  left: 2rem;
+}
+
+.pcircle {
+  position: relative;
+  top: -1rem;
+}
+
+.paddingx {
+  padding-left: 0.8rem !important;
+  padding-right: 0.8rem !important;
+}
+
+.pruls {
+  font-size: 12px;
+}
+
+.ruls {
+  color: #ec0c6d;
+  text-decoration: none;
+}
+
+.ruls:hover {
+  color: #9c9c9c;
+}
+
+.modal-header .btn-close {
+  margin: 0 !important;
+}
+
+[type="email"],
+[type="number"],
+[type="tel"],
+[type="url"] {
+  direction: rtl !important;
+}
+
+.inputtel {
+  border: #fff;
+  border-bottom: #9c9c9c;
+  color: #9c9c9c;
+}
+
+/*..............section 2 .........................*/
+
+.spansection {
+  color: #ec0c6d;
+}
+
+.widthBtn {
+  width: 50%;
+}
+
+.widthDownload {
+  width: 420px;
+}
+
+/*..............section 3.........................*/
+.margintopsec3 {
+  margin-top: 10rem !important;
+}
+
+.widthtext {
+  /* width: 70% !important; */
+  text-align: justify;
+}
+
+.toppic {
+  top: -5rem !important;
+}
+
+.widthcol4sec3 {
+  width: 23% !important;
+}
+
+/*.............................section 4 and footer.....................*/
+.margintopsec4 {
+  margin-top: 5rem !important;
+}
+
+.paddingtoprowsec4 {
+  padding: 7rem 3rem !important;
+}
+
+.widthPopular {
+  width: 585px;
+}
+
+.fontsizep {
+  font-size: 14px !important;
+  font-weight: 300 !important;
+  line-height: 25px !important;
+}
+
+.besties:hover {
+  width: 200px;
+  box-shadow: 0 8px 6px -6px black;
+  transform: perspective(500px) translateZ(5px);
+}
+
+.psocial {
+  padding: 0.65rem !important;
+}
+
+@media screen and (max-width: 900px) {
+  .widthBtn {
+    width: 100%;
+  }
+
+  .widthDownload {
+    width: 279px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .widthPopular {
+    width: 379px;
+  }
+}

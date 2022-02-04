@@ -1,0 +1,69 @@
+.btnHeader {
+  background-color: #ffffff00;
+  border: 1px solid #808080;
+  border-radius: 14px;
+  direction: ltr;
+  font-size: 12px;
+  font-weight: 500;
+  color: #808080;
+  padding: 4px;
+}
+
+.dirlogo {
+  direction: ltr;
+}
+
+.spanh3 {
+  color: #ec0c6d;
+}
+
+.psocial {
+  padding: 0.65rem !important;
+}
+
+.btnstyle {
+  background-color: #ec0c6d;
+}
+
+.btnstyle:hover {
+  background-color: #aa004a;
+}
+
+.smallFont {
+  font-size: 12px;
+}
+
+[type="email"],
+[type="number"],
+[type="tel"],
+[type="url"] {
+  direction: rtl !important;
+}
+
+.btn-outline-primary {
+  color: #c0c0c0 !important;
+  border-color: #c0c0c0 !important;
+}
+
+.btn-outline-primary:hover {
+  color: #c0c0c0 !important;
+  background-color: #fffff900 !important;
+  border-color: #c0c0c0 !important;
+}
+
+.btn-outline-primary:focus {
+  -webkit-box-shadow: 0 0 0 0 !important;
+  box-shadow: 0 0 0 0 !important;
+}
+
+.btn {
+  line-height: 1 !important;
+  border-radius: 20rem !important;
+}
+
+.fontsizep {
+  font-size: 14px !important;
+  font-weight: 300 !important;
+  line-height: 25px !important;
+}
+/*# sourceMappingURL=contactus.css.map */

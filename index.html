@@ -1,0 +1,1647 @@
+<!DOCTYPE html>
+<html dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      سفارش آنلاین غذا , شیرینی و خرید از کافی شاپ و سوپر مارکت | اسنپ فود
+    </title>
+
+    <link rel="stylesheet" href="./styles/css/index.css" />
+    <!--Bootstrap-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css"
+      integrity="sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N"
+      crossorigin="anonymous"
+    />
+
+    <!--Fontawesome-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="bg-light">
+    <header id="change">
+      <div class="d-flex justify-content-between align-items-center p-3">
+        <!-- Button trigger modal -->
+        <button
+          type="button"
+          class="btn btn-outline-primary"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+        >
+          <i class="fas fa-user-alt"></i>&nbsp; ورود / عضویت
+        </button>
+
+        <!-- Modal -->
+        <div
+          class="modal fade"
+          id="exampleModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header bg-light justify-content-between p-2">
+                <div>
+                  <h6 class="modal-title" id="exampleModalLabel">
+                    <i class="far fa-user"></i>&nbsp;ورود / عضویت
+                  </h6>
+                </div>
+
+                <button
+                  type="button"
+                  class="btn-close ms-5"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body d-block">
+                <p class="text-center">
+                  برای ورود یا ثبت‌نام شماره تلفن همراه خود را وارد کنید
+                </p>
+
+                <input
+                  type="tel"
+                  class="form-control m-4 border-0 w-75 inputtel"
+                  name="phone"
+                  id="phone"
+                  placeholder="09*******"
+                  maxlength="11"
+                />
+                <label
+                  class="text-start fs-6 position-relative d-block ms-5 topEffectLabel"
+                  >شماره همراه</label
+                >
+              </div>
+              <div class="modal-footer justify-content-center mb-3">
+                <button
+                  type="button"
+                  class="btnstyle w-75 border-0 rounded-2 p-2 text-white fw-bold"
+                >
+                  ادامه
+                </button>
+
+                <p class="pruls">
+                  عضویت به معنای قبول
+                  <a href="http://" class="ruls"
+                    ><span>قوانین و مقررات</span></a
+                  >
+                  اسنپ فود است
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <a href="#" class="p-3 dirlogo">
+          <img src="img/snappfood_logo.svg" class="w-25" alt="" srcset=""
+        /></a>
+      </div>
+
+      <!--center of hero's header-->
+
+      <div
+        class="d-flex flex-column justify-content-center align-items-center text-center topherosearch"
+      >
+        <h2 class="text-white fw-bolder p-4 p-md-0">
+          سفارش آنلاین غذا، شیرینی و خرید از کافی شاپ و سوپرمارکت ها
+        </h2>
+        <div
+          class="bgsearch w-50 rounded-2 d-flex align-items-center justify-content-center mt-3"
+        >
+          <input
+            type="text"
+            class="p-3 mt-3 mb-5 mx-1 rounded-2 border-0 form-control"
+            style="width: 19%"
+            placeholder="شهر"
+            value="تهران"
+          />
+
+          <input
+            type="text"
+            class="p-3 mt-3 mb-5 mx-1 rounded-2 border-0 form-control"
+            style="width: 19%"
+            placeholder="محله"
+          />
+
+          <input
+            type="text"
+            class="p-3 mt-3 mb-5 mx-1 rounded-2 border-0 form-control"
+            style="width: 19%"
+            placeholder="غذا"
+          />
+
+          <input
+            type="text"
+            class="p-3 mt-3 mb-5 mx-1 rounded-2 border-0 form-control"
+            style="width: 19%"
+            placeholder="رستوران"
+          />
+
+          <button
+            type="submit"
+            class="p-3 mt-3 mb-5 mx-1 rounded-2 border-0 btnstyle text-white"
+          >
+            جست و جو
+          </button>
+        </div>
+
+        <div
+          class="d-none d-md-flex justify-content-center align-items-center mx-3 w-50 mt-5"
+        >
+          <div class="mx-4">
+            <div class="rounded-circle">
+              <img src="img/restaurant.png" alt="" srcset="" />
+            </div>
+            <span class="bg-white colorspan p-2 border-1 fw-bold py-3"
+              >1285</span
+            >
+            <p class="text-white text-center fw-bold pcircle">رستوران</p>
+          </div>
+
+          <div class="mx-4">
+            <div class="rounded-circle">
+              <img src="img/cafe.png" alt="" srcset="" />
+            </div>
+            <span class="bg-white colorspan p-2 border-1 fw-bold py-3"
+              >1289</span
+            >
+            <p class="text-white text-center fw-bold pcircle">کافی شاپ</p>
+          </div>
+
+          <div class="mx-4">
+            <div class="rounded-circle">
+              <img src="img/confectionery.png" alt="" srcset="" />
+            </div>
+            <span class="bg-white colorspan border-1 fw-bold py-3 paddingx"
+              >555</span
+            >
+            <p class="text-white text-center fw-bold pcircle">شیرینی</p>
+          </div>
+
+          <div class="mx-4">
+            <div class="rounded-circle">
+              <img src="img/supermarket.png" alt="" srcset="" />
+            </div>
+            <span class="bg-white colorspan border-1 fw-bold py-3 paddingx"
+              >866</span
+            >
+            <p class="text-white text-center fw-bold pcircle">سوپرمارکت</p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- section 2 -->
+    <div class="container-fluid bg-white text-center py-5">
+      <p class="fs-2">
+        <span class="spansection">اسنپ فود</span> پیشگام در سفارش آنلاین غذا در
+        ایران
+      </p>
+      <p class="p-5 pt-3 text-secondary jutifyText">
+        اسنپ‌فود یا همان زودفود سابق، اولین و بزرگ‌ترین سامانه سفارش آنلاین غذا
+        است. اسنپ‌فود، علاوه بر سفارش غذا، خدمات سفارش آنلاین کیک و شیرینی و
+        سوپرمارکت آنلاین را نیز ارائه می‌کند. در حال حاضر، بیش از ۱۳۵۰۰ رستوران
+        دربیش از ۷۰ نقطه از کشور فعال هستند. شما با سفارش غذا از اسنپ فود به طیف
+        وسیعی از رستوران‌ها، غذاها و بهترین برندها دسترسی خواهید داشت. با سفارش
+        آنلاین غذا در تهران، اصفهان، مشهد، تبریز و دیگر نقاط ایران، راحتی و تنوع
+        را تجربه کنید.
+      </p>
+    </div>
+
+    <!--section 3-->
+
+    <div class="container-fluid bg-light">
+      <div
+        class="container rounded-2 d-flex justify-content-center align-items-center bg-white margintopsec3"
+      >
+        <div class="p-4">
+          <p class="fs-2">اپلیکیشن <span class="spansection">اسنپ فود</span></p>
+          <p class="text-secondary widthtext pt-3 jutifyText">
+            با اپلیکیشن اسنپ‌فود به راحتی و با چند کلیک ساده می‌توانید
+            رستوران‌ها، کافه‌ها، شیرینی‌فروشی‌ها و سوپرمارکت‌های نزدیک خودتان را
+            جست‌و‌جو کرده و از تجربه سفارش آسان از اسنپ‌فود لذت ببرید.
+          </p>
+
+          <div class="mt-5">
+            <label for="inputphone" class="fs-6"
+              >برای دریافت لینک دانلود اپلیکیشن، شماره موبایل خود را وارد
+              کنید.</label
+            >
+
+            <div class="d-flex mt-4">
+              <input
+                type="tel"
+                class="form-control widthBtn p-0 p-md-3 border-s-0"
+                name="phone"
+                id="inputphone"
+                placeholder="*******09"
+              />
+              <button
+                type="submit"
+                class="btnstyle p-0 p-md-3 text-white border-0 rounded-2"
+              >
+                دریافت لینک
+              </button>
+            </div>
+            <div
+              class="d-flex justify-content-between flex-wrap mt-4 widthDownload"
+            >
+              <a href="http://" class="mb-3">
+                <img src="svg/google-play.svg" alt="" srcset="" />
+              </a>
+
+              <a href="http://">
+                <img src="svg/cafebazaar.svg" alt="" srcset="" />
+              </a>
+
+              <a href="http://">
+                <img src="svg/sib-app.svg" alt="" srcset="" />
+              </a>
+
+              <a href="http://">
+                <img src="svg/iapps.svg" alt="" srcset="" />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="d-none d-lg-block position-relative toppic me-5">
+          <img src="img/iphoneX_mockup.png" class="me-5" alt="" srcset="" />
+        </div>
+      </div>
+    </div>
+
+    <!--section 4-->
+    <div class="container-fluid bg-white margintopsec4">
+      <div class="container">
+        <div
+          class="row row-cols-1 row-cols-sm-2 row-col-md-3 row-cols-lg-4 paddingtoprowsec4"
+        >
+          <a href="http://">
+            <div
+              class="col-12 col-sm-6 col-md-4 col-lg-3 rounded-3 mb-3 besties"
+            >
+              <img src="img/1.png" alt="" srcset="" />
+            </div>
+          </a>
+
+          <a href="http://">
+            <div
+              class="col-12 col-sm-6 col-md-4 col-lg-3 rounded-3 mb-3 besties"
+            >
+              <img src="img/2.png" alt="" srcset="" />
+            </div>
+          </a>
+
+          <a href="http://">
+            <div
+              class="col-12 col-sm-6 col-md-4 col-lg-3 rounded-3 mb-3 besties"
+            >
+              <img src="img/3.png" alt="" srcset="" />
+            </div>
+          </a>
+
+          <a href="http://">
+            <div
+              class="col-12 col-sm-6 col-md-4 col-lg-3 rounded-3 mb-3 besties"
+            >
+              <img src="img/16.png" alt="" srcset="" />
+            </div>
+          </a>
+
+          <a href="http://">
+            <div
+              class="col-12 col-sm-6 col-md-4 col-lg-3 rounded-3 mb-3 besties"
+            >
+              <img src="img/13.png" alt="" srcset="" />
+            </div>
+          </a>
+
+          <a href="http://">
+            <div
+              class="col-12 col-sm-6 col-md-4 col-lg-3 rounded-3 mb-3 besties"
+            >
+              <img src="img/10.png" alt="" srcset="" />
+            </div>
+          </a>
+
+          <a href="http://">
+            <div
+              class="col-12 col-sm-6 col-md-4 col-lg-3 rounded-3 mb-3 besties"
+            >
+              <img src="img/15.png" alt="" srcset="" />
+            </div>
+          </a>
+
+          <a href="http://">
+            <div
+              class="col-12 col-sm-6 col-md-4 col-lg-3 rounded-3 mb-3 besties"
+            >
+              <img src="img/12.png" alt="" srcset="" />
+            </div>
+          </a>
+
+          <a href="http://">
+            <div
+              class="col-12 col-sm-6 col-md-4 col-lg-3 rounded-3 mb-3 besties"
+            >
+              <img src="img/7.png" alt="" srcset="" />
+            </div>
+          </a>
+
+          <a href="http://">
+            <div
+              class="col-12 col-sm-6 col-md-4 col-lg-3 rounded-3 mb-3 besties"
+            >
+              <img src="img/11.png" alt="" srcset="" />
+            </div>
+          </a>
+
+          <a href="http://">
+            <div
+              class="col-12 col-sm-6 col-md-4 col-lg-3 rounded-3 mb-3 besties"
+            >
+              <img src="img/6.png" alt="" srcset="" />
+            </div>
+          </a>
+
+          <a href="http://">
+            <div
+              class="col-12 col-sm-6 col-md-4 col-lg-3 rounded-3 mb-3 besties"
+            >
+              <img src="img/4.png" alt="" srcset="" />
+            </div>
+          </a>
+
+          <a href="http://">
+            <div
+              class="col-12 col-sm-6 col-md-4 col-lg-3 rounded-3 mb-3 besties"
+            >
+              <img src="img/9.png" alt="" srcset="" />
+            </div>
+          </a>
+        </div>
+
+        <div class="row">
+          <p class="fs-3">
+            پر طرفدار های <span class="spansection">اسنپ فود</span>
+          </p>
+        </div>
+
+        <div class="d-flex justify-content-around">
+          <div class="d-block">
+            <p class="fontsizep text-secondary">
+              مجموعه‌ای از بهترین و پرطرفدارترین رستوران‌ها و فروشگاه‌های فعال
+              در اسنپ‌فود
+            </p>
+
+            <ul
+              class="nav d-flex justify-content-between flex-wrap widthPopular"
+            >
+              <li class="mb-3">
+                <a href="http://">
+                  <div class="mx-2">
+                    <img src="img/doner.png" alt="" srcset="" />
+                  </div>
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="http://">
+                  <div class="mx-2">
+                    <img src="img/doner.png" alt="" srcset="" />
+                  </div>
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="http://">
+                  <div class="mx-2">
+                    <img src="img/doner.png" alt="" srcset="" />
+                  </div>
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="http://">
+                  <div class="mx-2">
+                    <img src="img/doner.png" alt="" srcset="" />
+                  </div>
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="http://">
+                  <div class="mx-2">
+                    <img src="img/doner.png" alt="" srcset="" />
+                  </div>
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="http://">
+                  <div class="mx-2">
+                    <img src="img/doner.png" alt="" srcset="" />
+                  </div>
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="http://">
+                  <div class="mx-2">
+                    <img src="img/doner.png" alt="" srcset="" />
+                  </div>
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="http://">
+                  <div class="mx-2">
+                    <img src="img/doner.png" alt="" srcset="" />
+                  </div>
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="http://">
+                  <div class="mx-2">
+                    <img src="img/doner.png" alt="" srcset="" />
+                  </div>
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="http://">
+                  <div class="mx-2">
+                    <img src="img/doner.png" alt="" srcset="" />
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div
+            class="d-none d-lg-flex w-50 justify-content-center align-items-center"
+          >
+            <img src="img/spoon.png" alt="" srcset="" />
+            <img src="img/food5.png" class="w-50" alt="" srcset="" />
+            <img src="img/fork.png" alt="" srcset="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--section 5-->
+    <div class="container-fluid mt-5 p-5">
+      <div class="row">
+        <h6>اسنپ فود در شهر های مختلف</h6>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >تهران</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >مشهد</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >اصفهان،</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >کرج</a
+          >
+        </div>
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >شیراز</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >تبریز</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >قم</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >اهواز</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >رشت</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >قزوین</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >ارومیه</a
+          >
+        </div>
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >یزد</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >ساری</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >اردبیل</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >کرمانشاه</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >کرمان</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >همدان</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >اصفهان،</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >کرج</a
+          >
+        </div>
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >شیراز</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >تبریز</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >قم</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >اهواز</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >رشت</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >قزوین</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >ارومیه</a
+          >
+        </div>
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >یزد</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >ساری</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >اردبیل</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >کرمانشاه</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >کرمان</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >همدان</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >اصفهان،</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >کرج</a
+          >
+        </div>
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >شیراز</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >تبریز</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >قم</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >اهواز</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >رشت</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >قزوین</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >ارومیه</a
+          >
+        </div>
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >یزد</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >ساری</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >اردبیل</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >کرمانشاه</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >کرمان</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >همدان</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >اصفهان،</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >کرج</a
+          >
+        </div>
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >شیراز</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >تبریز</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >قم</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >اهواز</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >رشت</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >قزوین</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >ارومیه</a
+          >
+        </div>
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >یزد</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >ساری</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >اردبیل</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >کرمانشاه</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >کرمان</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >همدان</a
+          >
+        </div>
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >اصفهان،</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >کرج</a
+          >
+        </div>
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >شیراز</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >تبریز</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >قم</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >اهواز</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >رشت</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >قزوین</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >ارومیه</a
+          >
+        </div>
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >یزد</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >ساری</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >اردبیل</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >کرمانشاه</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >کرمان</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >همدان</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >اصفهان،</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >کرج</a
+          >
+        </div>
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >شیراز</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >تبریز</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >قم</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >اهواز</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >رشت</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >قزوین</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >ارومیه</a
+          >
+        </div>
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >یزد</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >ساری</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >اردبیل</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >کرمانشاه</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >کرمان</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >همدان</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >اصفهان،</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >کرج</a
+          >
+        </div>
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >شیراز</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >تبریز</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >قم</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >اهواز</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >رشت</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >قزوین</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >ارومیه</a
+          >
+        </div>
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >یزد</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >ساری</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >اردبیل</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >کرمانشاه</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >کرمان</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >همدان</a
+          >
+        </div>
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >اصفهان،</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >کرج</a
+          >
+        </div>
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >شیراز</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >تبریز</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >قم</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >اهواز</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >رشت</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >قزوین</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >ارومیه</a
+          >
+        </div>
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >یزد</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >ساری</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >اردبیل</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >کرمانشاه</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >کرمان</a
+          >
+        </div>
+
+        <div
+          class="rounded-pill border border-secondary bg-white mt-3 w-auto me-1"
+        >
+          <a href="http://" class="nav-link text-secondary p-1 text-center lh-1"
+            >همدان</a
+          >
+        </div>
+      </div>
+
+      <div class="mt-5 p-5">
+        <h6>از اسنپ فود بیشتر بدانیم!</h6>
+
+        <p class="text-secondary fontsizep mt-4 jutifyText">
+          اسنپ فود، اولین و بزرگ‌ترین سامانه آنلاین سفارش و دلیوری غذا است که
+          سفارش اینترنتی غذا را برای همه امکان‌پذیر کرده است. زودفود، اولین برند
+          سفارش آنلاین غذا در ایران است که با هدف پایه گذاری فرهنگ سفارش
+          اینترنتی غذا کار خود را آغاز کرد. در سال ۱۳۹۶، شرکت های اسنپ و زودفود
+          تحت نام تجاری مشترک اسنپ فود به فعالیت خود ادامه دادند تا تحولی جدید
+          در حوزه سفارش غذا و فست فود ایجاد کنند. هم اکنون اسنپ‌فود به عنوان
+          اولین سایت سفارش غذا در فضای کسب و کارهای آنلاین ایران، با بیش از
+          ۱۳۵۰۰ رستوران از معتبرترین و بهترین رستوران‌های ایران مشغول همکاری
+          است. هوس غذای ایرانی یا غذای ایتالیایی کرده‌اید؟ سفارش پیتزا یا سفارش
+          شیک و گلاسه را در نظر گرفته‌اید؟ می‌خواهید برای سفارش صبحانه از خدمات
+          دلیوری و ارسال قهوه داغ در محل کارتان لذت ببرید؟ یا شاید حتی مهمان
+          دارید و می‌خواهید خدمات سفارش شبانه غذا دریافت کنید؟ اسنپ فود همواره
+          کنار شما است. سایت اسنپ فود را باز کنید یا با دانلود اپلیکیشن آن، با
+          خیالی آسوده سفارش دهید.
+        </p>
+      </div>
+
+      <hr />
+
+      <div class="row mt-4 p-5">
+        <div class="col-12 col-sm-6 col-md-3">
+          <h6>بیشتر بدانید</h6>
+          <ul class="navbar-nav mt-4">
+            <li>
+              <a
+                href="aboutus.html"
+                class="nav-link fontsizep text-secondary p-0"
+                >درباره ما</a
+              >
+            </li>
+            <li>
+              <a href="" class="nav-link fontsizep text-secondary p-0"
+                >قوانین سایت</a
+              >
+            </li>
+            <li>
+              <a href="" class="nav-link fontsizep text-secondary p-0"
+                >پرسش های متداول</a
+              >
+            </li>
+            <li>
+              <a href="" class="nav-link fontsizep text-secondary p-0">وبلاگ</a>
+            </li>
+            <li>
+              <a href="" class="nav-link fontsizep text-secondary p-0"
+                >سفارش شبانه غذا</a
+              >
+            </li>
+            <li>
+              <a href="" class="nav-link fontsizep text-secondary p-0"
+                >بسته های خدماتی اسنپ فود</a
+              >
+            </li>
+            <li>
+              <a href="" class="nav-link fontsizep text-secondary v"
+                >راهنمای پرداخت جیرینگ</a
+              >
+            </li>
+            <li>
+              <a href="" class="nav-link fontsizep text-secondary p-0"
+                >اپلیکیشن موبایل</a
+              >
+            </li>
+            <li>
+              <a href="" class="nav-link fontsizep text-secondary p-0"
+                >همکاری مشترک با سازمان ملل</a
+              >
+            </li>
+            <li>
+              <a href="" class="nav-link fontsizep text-secondary p-0"
+                >مرام نامه همکاری ویژه</a
+              >
+            </li>
+            <li>
+              <a href="" class="nav-link fontsizep text-secondary p-0"
+                >ثبت نام فروشندگان</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-3">
+          <h6>با ما در ارتباط باشید</h6>
+          <ul class="navbar-nav mt-4">
+            <li>
+              <a
+                href="contactus.html"
+                class="nav-link fontsizep text-secondary p-0"
+                >تماس با ما</a
+              >
+            </li>
+            <li>
+              <a href="" class="nav-link fontsizep text-secondary p-0"
+                >تیم ما</a
+              >
+            </li>
+            <li>
+              <a
+                href="privacy-policy.html"
+                class="nav-link fontsizep text-secondary p-0"
+                >حریم خصوصی</a
+              >
+            </li>
+            <li>
+              <a href="" class="nav-link fontsizep text-secondary p-0"
+                >ثبت شکایت</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-2 text-center">
+          <h6>مجوز ها</h6>
+          <img src="img/kasbokar.png" class="mt-4" alt="" />
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 text-center mt-5 mt-sm-0">
+          <h6>عضویت در خبرنامه</h6>
+          <p class="text-secondary fontsizep mt-4">
+            برای عضویت در خبرنامه اسنپ‌فود و دریافت جدیدترین مطالب تخفیف‌‌ها و
+            جشنواره‌ها ایمیل خود را وارد کنید
+          </p>
+          <div class="d-flex">
+            <input
+              type="email"
+              class="p-3 w-100 border rounded-start"
+              name="email"
+              id="email"
+              placeholder="ایمیل"
+            />
+            <button
+              type="submit"
+              class="btnstyle p-3 border-0 rounded-end text-white fw-bold"
+            >
+              عضویت
+            </button>
+          </div>
+          <hr class="my-5" />
+
+          <ul class="nav d-flex justify-content-center align-items-center">
+            <li class="me-4">
+              <a href="http://"
+                ><i
+                  class="fas fa-video text-dark bg-white psocial rounded-circle border"
+                ></i
+              ></a>
+            </li>
+
+            <li class="me-4">
+              <a href="http://"
+                ><i
+                  class="fab fa-twitter text-dark bg-white psocial rounded-circle border"
+                ></i
+              ></a>
+            </li>
+            <li class="me-4">
+              <a href="http://"
+                ><i
+                  class="fab fa-linkedin-in text-dark bg-white psocial rounded-circle border"
+                ></i
+              ></a>
+            </li>
+            <li class="me-4">
+              <a href="http://"
+                ><i
+                  class="fab fa-instagram text-dark bg-white psocial rounded-circle border"
+                ></i
+              ></a>
+            </li>
+            <li>
+              <a href="http://"
+                ><i
+                  class="fab fa-telegram-plane text-dark bg-white psocial rounded-circle border"
+                ></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
